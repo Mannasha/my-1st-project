@@ -8,8 +8,8 @@
   padding: 140px;
   width: 1320px;
   height: 600px;
-  background-position: 100%;
-  background-repeat: no-repeat;
+  
+  text-align: center;
 }
 .bg-text {
   text-align: center;
@@ -40,4 +40,9 @@
   font-size: 48px;
   font-weight: 700;
   margin-top: 16px;
+}
+
+.new-year-img{
+  text-align: center;
+  margin-top: 48px;
 }
