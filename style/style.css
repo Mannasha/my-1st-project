@@ -1,32 +1,38 @@
-.body{
+.body {
   font-family: Merriweather;
 }
-.container{
+.container {
   max-width: 1320px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .hero-banner {
   position: relative;
+  overflow: hidden;
 }
 
 .hero-banner .new-year-img {
   position: relative;
 }
+.hero-banner .new-year-img img{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 .hero-banner .new-year-img::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   z-index: 1;
 }
 
-
-.hero-banner .text{
+.hero-banner .text {
   position: absolute;
   top: 22%;
   color: white;
@@ -35,17 +41,17 @@
   max-width: 600px;
   z-index: 2;
 }
-.hero-banner .subtitle{
-  color: #FFF;
+.hero-banner .subtitle {
+  color: #fff;
   text-align: center;
   font-family: Merriweather;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal
+  line-height: normal;
 }
-.hero-banner .title{
-  color: #FFF;
+.hero-banner .title {
+  color: #fff;
   text-align: center;
   font-family: Merriweather;
   font-size: 72px;
@@ -53,3 +59,107 @@
   font-weight: 900;
   line-height: 95px;
 }
+.off {
+  color: #f00;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 120px;
+}
+.off-dis {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 48px;
+}
+.categori {
+  color: #070211;
+  border-top: 16px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 16px;
+}
+.new-year-photu {
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 120px;
+}
+
+
+
+
+
+
+.images-all {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.images-all2 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 24px;
+} 
+.vectorrr{
+  position: relative;
+  top: 20%;
+}
+.vectorrr .vectorrr-text{
+  position: absolute;
+  top: 126px;
+  color: white;
+  left: 126px;
+}
+
+.vectorrr .party {
+  top: 22%;
+  color: white;
+  left: 24%;
+  max-width: 465px;
+  color: #FFF;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+.vectorrr .pera {
+  max-width: 400px;
+  color: white;
+}
+.gift .subtitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.gift .title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  
+}
+.gift .pera {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 424px;
+  line-height: 32px; 
+}
+.address{
+  background-color: ;
